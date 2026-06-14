@@ -1,0 +1,4 @@
+volume = 50
+language = ru
+sensivity = 1.6
+mount = 50
