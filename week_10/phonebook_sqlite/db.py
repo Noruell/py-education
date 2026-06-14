@@ -63,5 +63,3 @@ def delete_contact(name):
         cursor.execute("DELETE FROM contacts WHERE name = ?", (name,))
         return cursor.rowcount  # количество удалённых строк
     
-
-print(get_all_contacts())
