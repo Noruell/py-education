@@ -1,5 +1,5 @@
-from Education.additional_projects.text_encryptor.alphabets import ALPHABETS_DICT
-from Education.additional_projects.text_encryptor.chipher_methods import CHIPHER_METHODS
+from alphabets import ALPHABETS_DICT
+from chipher_methods import CHIPHER_METHODS
 import os
 from datetime import datetime as dt
 

@@ -1,4 +1,4 @@
-from Education.additional_projects.text_encryptor.alphabets import ALPHABETS_DICT
+from alphabets import ALPHABETS_DICT
 
 CHIPHER_METHODS = {1: "Цезарь", 
                    2: "Атбаш", 

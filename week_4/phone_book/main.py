@@ -1,4 +1,4 @@
-from Education.week_4.phone_book.phone_book_commands import (commands, contact_add, contact_delete, 
+from phone_book_commands import (commands, contact_add, contact_delete, 
                                  contact_find, contact_list, program_close,
                                  load_contacts, save_contacts)
 

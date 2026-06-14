@@ -1,4 +1,4 @@
-from Education.week_3.module_calculator.operations import add, subtract, multiply, divide, power, oper_list
+from operations import add, subtract, multiply, divide, power, oper_list
 
 # Check correct input
 def safe_input(prompt, data_type=None):

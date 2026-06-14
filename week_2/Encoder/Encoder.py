@@ -1,4 +1,4 @@
-from Education.week_2.Encoder.encoder_lang import ru_lang, en_lang
+from encoder_lang import ru_lang, en_lang
 
 # Переменные
 encoded = []

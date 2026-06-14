@@ -1,10 +1,10 @@
 # Точка входа, управление программой
-from Education.additional_projects.text_encryptor.alphabets import ALPHABETS_DICT
-from Education.additional_projects.text_encryptor.chipher_methods import (
+from alphabets import ALPHABETS_DICT
+from chipher_methods import (
     CHIPHER_METHODS, caesar, atbash,
     flip, xor_encrypt, xor_decrypt
 )
-from Education.additional_projects.text_encryptor.utils import (
+from utils import (
     choose_language, choose_action, choose_chipher,
     get_text, get_shift, get_xor_key,
     save_result, auto_log, safe_input
