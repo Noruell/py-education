@@ -1,4 +1,4 @@
-from Education.week_7.commands import main
+from commands import main
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

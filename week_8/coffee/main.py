@@ -1,4 +1,4 @@
-from Education.week_8.coffee.coffee_machine import Menu, CoffeeMaker, MoneyMachine
+from coffee_machine import Menu, CoffeeMaker, MoneyMachine
 
 def main():
     menu = Menu()
