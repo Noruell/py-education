@@ -1,0 +1,28 @@
+# --- Python (Bytecode, кэш, тесты) ---
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.coverage
+
+# --- Виртуальное окружение ---
+venv/
+env/
+ENV/
+.venv
+
+# --- IDE (VS Code, PyCharm и т.д.) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Файлы окружения и ОС ---
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Мои временные файлы (на всякий случай) ---
+*.tmp
+*.bak
