@@ -58,3 +58,5 @@ if __name__ == "__main__":
     print("После удаления:")
     for row in get_all_products(cursor):
         print(row)
+
+    conn.close()
