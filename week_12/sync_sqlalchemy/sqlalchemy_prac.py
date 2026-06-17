@@ -1,4 +1,4 @@
-from model_prac import SessionLocal, User
+from week_12.sync_sqlalchemy.model_prac import SessionLocal, User
 
 def print_all_users(session):
     all_users = session.query(User).all()

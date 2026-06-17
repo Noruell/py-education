@@ -1,4 +1,4 @@
-from model import SessionLocal, User
+from week_12.sync_sqlalchemy.model import SessionLocal, User
 from sqlalchemy import text
 
 def main():

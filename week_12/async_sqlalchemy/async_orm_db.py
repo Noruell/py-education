@@ -1,6 +1,6 @@
 import asyncio
 from sqlalchemy import text, update, bindparam
-from async_model import User, AsyncSessionLocal
+from week_12.async_sqlalchemy.async_model import User, AsyncSessionLocal
 
 async def print_all_users(session, status: str) -> str:
     result = await session.execute(text('SELECT * FROM users'))
